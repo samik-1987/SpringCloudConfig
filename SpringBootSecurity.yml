@@ -1,4 +1,16 @@
 ---
+spring:
+  profiles: dev
+  
 message:
-  admin: message from admin cloud app specific
-  user:  message from user cloud app specific
+  admin: message from admin cloud app specific dev
+  user:  message from user cloud app specific dev
+  
+---
+
+spring:
+  profiles: prod
+
+message:
+  admin: message from admin cloud app specific prod
+  user:  message from user cloud app specific prod
