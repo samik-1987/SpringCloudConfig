@@ -1,4 +1,4 @@
 ---
 message:
-  admin: message from admin cloud
-  user:  message from user cloud
+  admin: message from admin cloud app specific
+  user:  message from user cloud app specific
