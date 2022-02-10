@@ -1,7 +1,6 @@
 ---
 spring:
-  profiles: dev
-  
+  profiles: dev  
 message:
   admin: message from admin cloud app specific dev
   user:  message from user cloud app specific dev
@@ -10,7 +9,6 @@ message:
 
 spring:
   profiles: prod
-
 message:
   admin: message from admin cloud app specific prod
   user:  message from user cloud app specific prod

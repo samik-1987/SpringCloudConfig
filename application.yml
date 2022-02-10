@@ -1,4 +1,13 @@
 ---
+spring:
+  profiles: dev  
 message:
-  admin: message from admin cloud
-  user:  message from user cloud
+  admin: message from admin cloud dev
+  user:  message from user cloud dev
+  
+---
+spring:
+  profiles: prod
+message:
+  admin: message from admin cloud prod
+  user:  message from admin cloud specific prod
