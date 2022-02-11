@@ -2,8 +2,8 @@
 spring:
   profiles: dev  
 message:
-  admin: message from admin cloud app specific dev 2
-  user:  message from user cloud app specific dev 2
+  admin: message from admin cloud app specific dev 3
+  user:  message from user cloud app specific dev 3
   
 ---
 
